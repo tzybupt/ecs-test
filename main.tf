@@ -24,11 +24,11 @@ module "ecs" {
   count = 1
   source = "./modules/ecs"
 
-  // az_name             = "cn-xinan1-3A"
-  az_name             = "xxx"
+  az_name             = "cn-xinan1-3A"
   instance_name       = "ecs-test-001"
   display_name        = "ecs-test-001"
-  flavor_id           = "e3f6290e-9a5d-5746-2aac-828cfc65436c"
+  // flavor_id           = "e3f6290e-9a5d-5746-2aac-828cfc65436c"
+  flavor_id           = "e3f6290e-9a5d-5746-2aac-828cfc65436cxxx"
   image_type          = 1
   image_id            = "ab91410d-5f8f-462a-9b29-fd3b24b7ce14"
   vpc_id              = "vpc-tsey2i4mtv"
