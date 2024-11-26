@@ -24,7 +24,8 @@ module "ecs" {
   count = 1
   source = "./modules/ecs"
 
-  az_name             = "cn-xinan1-3A"
+  // az_name             = "cn-xinan1-3A"
+  az_name             = "xxx"
   instance_name       = "ecs-test-001"
   display_name        = "ecs-test-001"
   flavor_id           = "e3f6290e-9a5d-5746-2aac-828cfc65436c"
