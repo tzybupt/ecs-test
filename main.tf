@@ -16,7 +16,7 @@ provider "ctcloud" {
     master_order_id = "190497a38b3c497b971320476d07e9f3"
     paas_resource_id = "177d52d0ee0c40f0889b3d0159f5c94b"
     account_id = "ca888cf3674d4a83a42dbd71f4a09e94"
- //   user_id = "53e50630604f42eba9d4fd9e0d8458bf"
+    user_id = "53e50630604f42eba9d4fd9e0d8458bf"
 }
 
 // ecs创建
@@ -27,7 +27,8 @@ module "ecs" {
   az_name             = "cn-xinan1-3A"
   instance_name       = "ecs-test-001"
   display_name        = "ecs-test-001"
-  flavor_id           = "e3f6290e-9a5d-5746-2aac-828cfc65436c"
+  // flavor_id           = "e3f6290e-9a5d-5746-2aac-828cfc65436c"
+  flavor_id           = "e3f6290e-9a5d-5746-2aac-828cfxxxxxxx"
   image_type          = 1
   image_id            = "ab91410d-5f8f-462a-9b29-fd3b24b7ce14"
   vpc_id              = "vpc-tsey2i4mtv"
